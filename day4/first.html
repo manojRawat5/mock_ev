@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "open sans", sans-serif;
+      }
+      .navbar {
+        height: 10vh;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+      }
+      .right {
+        display: inline;
+        margin-right: 350px;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        display: inline-block;
+      }
+      .left {
+        display: inline-block;
+      }
+      select,
+      a {
+        text-decoration: none;
+        color: black;
+        border: none;
+        margin-right: 40px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: greenyellow;
+      }
+      .mainleft,.mainright{
+        width: 32vw;
+        display: inline-block;
+      }
+      .mainleft{
+        margin:100px 150px;
+      }
+      .mainright h3{
+        text-align:start;
+        font-size: 18px;
+        color:gray;
+        margin-bottom: 30px;
+      }
+      .mainright p{
+        text-align:start;
+        font-size: 14px;
+        color:gray;
+        font-weight: 500;
+      }
+      .mainleft img{
+        width: 100%;
+        background-color: pink;
+        margin: 45px;
+        border-radius: 10px;
+      }
+      select,option{
+        border: none;
+        outline: none;
+      }
+
+      body{
+        margin:40px 80px;
+    }
+    h1{
+        font-size: 50px;
+        color:gray;
+        margin-bottom: 70px;
+    }
+    
+    @keyframes firstTime {
+        from {color:aqua;}
+        10% {color:blue}
+    }
+    .box{
+        width:15vw;
+        text-align: justify;
+        display: inline-block;
+        margin-right: 80px;
+    }
+    i{
+        color: rgb(116, 116, 221);
+        font-size: 120px;
+        margin-bottom: 25px;
+        /* animation-name:firstTime;
+        animation-duration:5s; */
+        animation: firstTime 1s linear 2s infinite alternate;
+    }
+    p{
+        font-size: 18px;
+        color:gray;
+    }
+    #hehe{
+      margin-left:30px;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="right">
+        <span style="color: black">coin</span>
+        <span style="color: blue">Switch</span>
+      </div>
+      <div class="left">
+        <select>
+          <option value="">Products</option>
+          <option value="">Brands</option>
+          <option value="">Deals</option>
+        </select>
+        <a href="">Coins</a>
+        <a href="">Ventures</a>
+        <a href="">Blog</a>
+        <select>
+          <option value="">Company</option>
+          <option value="">Brands</option>
+          <option value="">Deals</option>
+        </select>
+        <button>Login To Pro</button>
+      </div>
+    </nav>
+    <section class="main">
+      <div class="mainleft">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsXIkrfCDRpTMC_T55EpA0Q2O5haI5_Izk7g&s"
+          alt="not found"
+        />
+      </div>
+      <div class="mainright">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          aliquid deleniti commodi et quis dolorem quia consectetur labore odit
+          architecto.
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+          dolore blanditiis suscipit provident quos doloremque tempora
+          voluptates quas perspiciatis molestiae dignissimos libero nesciunt qui
+          tenetur vel minima quam, excepturi nam temporibus, a eveniet dolorum
+          esse? Impedit ipsam ullam sint laboriosam repellat voluptates debitis
+          unde minus nesciunt! Adipisci placeat quaerat tempora.
+        </p>
+      </div>
+    </section>
+    <h1>Why it Matters?</h1>
+    <div class="main" id="hehe">
+        <div class="box">
+            <i class="fa-solid fa-star"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, perferendis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-hippo"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, perferendis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-mug-hot"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, perferendis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, perferendis?</p>
+        </div>
+        <!-- <i class="fa-solid fa-wand-magic-sparkles fa-flip-both fa-2xl"></i> -->
+    </div>
+  </body>
+  <script src="https://kit.fontawesome.com/b3f809acb7.js" crossorigin="anonymous"></script>
+</html>
